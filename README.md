@@ -1,3 +1,3 @@
 # AeroColorgram (integer only)
 
-### Warning: Only integers are supported!
+__Warning: Only integers are supported!__
