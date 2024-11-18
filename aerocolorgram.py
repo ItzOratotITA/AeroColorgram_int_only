@@ -13,6 +13,8 @@ Supported colors:[/bold]""")
 for color in supported_colors:
     printconsole(f"[{color}]{color}[/{color}]")
 
+printconsole("[bold]For more colors visit https://rich.readthedocs.io/en/stable/appendix/colors.html[/bold]")
+
 items_num = range(1, int(cin("How much items do you want to include? ")) + 1 )
 items = []
 items_colors = []
