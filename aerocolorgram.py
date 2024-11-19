@@ -27,8 +27,8 @@ items = []
 items_colors = []
 
 for idx in range(items_num):
-    items.append(int(cin(f"Insert percent for item {idx} (don't type '%'): ")))
-    items_colors.append(cin(f"Insert color for item {idx}: "))
+    items.append(int(cin(f"Insert percent for item {idx+1} (don't type '%'): ")))
+    items_colors.append(cin(f"Insert color for item {idx+1}: "))
 
 printconsole("What i understood:")
 items_length = list(range(len(items)))
