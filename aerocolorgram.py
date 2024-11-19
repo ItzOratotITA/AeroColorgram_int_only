@@ -48,3 +48,5 @@ for p, c in item_data:
 
 for i in range(0, 100, 10):
     printconsole("".join(listona[i : i + 10]))
+
+cin("Press ENTER to quit. ")
